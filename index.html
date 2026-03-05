@@ -5,27 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .head{
-            border:4px solid red;
-            padding: 50px;
-            margin-bottom: 50px;
-            border-radius: 50px;
+        h1{
+            border:2px solid red;
+            padding-left:300px;
+            margin: 70px;
         }
-
+        h2{
+            color: burlywood;
+        }
     </style>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1 class="head">Order List</h1>
+    <header>
+        <h1 id="h1" style="color: aqua;">header 1</h1>
+        <h2>header 2</h2>
+        <h3>header 3</h3>
+    </header>
+    <a href="flex.html">Flex</a>
+    <form action="">
+        <label for="">Name</label>
+        <input type="text" name="name" id=""><br>
+        <label for="">Email</label>
+        <input type="email" name="email" id=""><br>
+        <label for="">Date</label>
+        <input type="date" name="date" id=""><br>
+        <label for="">Skills</label><br>
+        <input type="checkbox" name="skills" id="">
+        <label for="">HTML</label><br>
+        <input type="checkbox" name="skills" id="">
+        <label for="">CSS</label><br>
+        <label for="">Country</label><br>
+        <input type="radio" name="country" id="">
+        <label for="">India</label><br>
+        <input type="radio" name="country" id="">
+        <label for="">other</label><br>
+        
+
+        <button type="submit">Submit</button>
+    </form>
+
+
+    <img style="width: 30px; height: 50px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1280px-HTML5_logo_and_wordmark.svg.png" alt="html image">
+    <a href="table.html">table page</a>
     <ol>
         <li>one</li>
-        <li>two</li>
-        <li>three</li>
+        <li>one</li>
+        <li>one</li>
+        <li>one</li>
     </ol>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <div style="color: aqua;"> from span</div> Maxime nobis deserunt culpa laborum eligendi, voluptas officiis sed? Asperiores praesentium dignissimos dolores rem, iste eligendi excepturi voluptatibus veritatis, tempore in quidem!</p>
-    <a href="navbar.html">navbar example</a><br>
-    <a href="grid.html">grid example</a><br>
-    <a href="flex.html">Flexbox example</a>
-    <a href="form.html">Form page</a>
-   <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/d56mG7DezGs?si=pGnbzB96h6TZ7mTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+    <ul >
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam neque incidunt fugiat omnis voluptates consequuntur beatae facilis. Reiciendis eum autem deleniti commodi deserunt similique, beatae voluptas praesentium. Aspernatur, numquam nihil!</p>
+    <script>
+        document.getElementById('h1').innerText='changed using DOM'
+    </script>
 </body>
 </html>
