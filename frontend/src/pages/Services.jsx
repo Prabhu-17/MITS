@@ -12,7 +12,7 @@ const Services = () => {
        {products.map((product)=>(
         <>
           <h3 className="font-bold">{product.name}</h3>
-          <Link className="text-blue-400" to={`/services/${product.id}`}>View description</Link>
+          <Link className="text-blue-400" to={`/services/${product.id}`}>View description</Link> 
         </>
        ))}
     </div>
